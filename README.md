@@ -99,7 +99,6 @@
 ---
 
 5. **Running the Project**
-#####
 **Streamlit User Interface**:
     ```python
     st.title("Text Analysis: Sentiment and Sarcasm Detection")
@@ -124,9 +123,8 @@
 
 ---
 
-##### **OR**
+**OR**
 
-#####
 **Web Extension**:
 - Run the app.py under extension after the model has been trained and there is a model.h5 file and a tokenizer.pkl file.
 - Move the two files into the extension folder.
