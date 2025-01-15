@@ -1,6 +1,6 @@
 ### **Code Overview**
 
-1. ***Imports***:
+1. **Imports**:
     ```python
     import streamlit as st
     import re
@@ -98,7 +98,7 @@
 
 ---
 
-5. ***Running the Project***
+5. **Running the Project**
 #####
 **Streamlit User Interface**:
     ```python
@@ -151,3 +151,4 @@
 1. **Preprocessing**: Text is cleaned to remove noise and make it easier for the model to interpret.
 2. **Prediction**: The model predicts the sentiment, and regex patterns detect sarcasm.
 3. **Interactive Web Interface**: The Streamlit app provides an easy-to-use interface where users can input text and get predictions instantly.
+4. **Real-time Sentiment Analysis on the browser:** The web extension is able to pick up the trained model and run sentiment analysis in real time from a chrome extension.
