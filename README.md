@@ -131,6 +131,7 @@
 - Go to chrome extensions, enter developer mode and import the extension folder.
 - Load Twitter/X on the chrome brower and clock Activate Sentiment Analysis on the extension.
 
+---
 
 ### **Flow of the Application**
 
