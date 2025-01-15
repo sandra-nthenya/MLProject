@@ -1,6 +1,6 @@
 ### **Code Overview**
 
-1. **Imports**:
+1. ***Imports***:
     ```python
     import streamlit as st
     import re
@@ -98,7 +98,9 @@
 
 ---
 
-5. **Streamlit User Interface**:
+5. ***Running the Project***
+#####
+**Streamlit User Interface**:
     ```python
     st.title("Text Analysis: Sentiment and Sarcasm Detection")
     st.write("Enter your text below, and the app will predict its sentiment class and sarcasm.")
@@ -121,6 +123,16 @@
     - **Prediction Display**: If the user input is not empty, the app calls both `predict_classes()` and `predict_sarcasm()` functions and displays the results (Sentiment and Sarcasm). If no input is provided, it shows a warning.
 
 ---
+
+##### **OR**
+
+#####
+**Web Extension**:
+- Run the app.py under extension after the model has been trained and there is a model.h5 file and a tokenizer.pkl file.
+- Move the two files into the extension folder.
+- Go to chrome extensions, enter developer mode and import the extension folder.
+- Load Twitter/X on the chrome brower and clock Activate Sentiment Analysis on the extension.
+
 
 ### **Flow of the Application**
 
